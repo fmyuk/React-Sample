@@ -15,6 +15,11 @@ import MyPool from "./MyPool";
 import MyState from "./MyState";
 import MyParent from "./MyParent";
 import MyForm from "./MyForm";
+import MyTextarea from "./MyTextarea";
+import MySelect from "./MySelect";
+import MyList from "./MyList";
+import MyRadio from "./MyRadio";
+import MyCheck from "./MyCheck";
 
 const data = {
   name: "山田権左衛門",
@@ -65,6 +70,11 @@ ReactDOM.render(
     <MyState />
     <MyParent />
     <MyForm />
+    <MyTextarea />
+    <MySelect />
+    <MyList />
+    <MyRadio />
+    <MyCheck />
   </div>,
   document.getElementById("root")
 );
