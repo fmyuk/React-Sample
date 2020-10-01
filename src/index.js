@@ -20,6 +20,9 @@ import MySelect from "./MySelect";
 import MyList from "./MyList";
 import MyRadio from "./MyRadio";
 import MyCheck from "./MyCheck";
+import MyCheckMulti from "./MyCheckMulti";
+import MyFile from "./MyFile";
+import MyLife from "./MyLife";
 
 const data = {
   name: "山田権左衛門",
@@ -75,6 +78,9 @@ ReactDOM.render(
     <MyList />
     <MyRadio />
     <MyCheck />
+    <MyCheckMulti />
+    <MyFile />
+    <MyLife />
   </div>,
   document.getElementById("root")
 );
